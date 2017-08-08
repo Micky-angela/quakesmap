@@ -1,5 +1,6 @@
-Developing data products final assignment: destructive quakes detected on earth (from 1951 to 2016)
+App: map of destructive quakes detected on earth from 1951 to 2016
 ========================================================
+title: This testsubtitle: that test
 author: Julio Lahoz-Beneytez
 date: 07 Aug 2017
 autosize: true
@@ -12,16 +13,7 @@ Introduction
 - Curious about where the most destructive earthquakes have happened between the years 1951 and 2016?     
   - This app shows the exact date, magnitude, and location of quakes per region and year.
   - It also provides the total number of destructive earthquakes registered per region and year.
-
-
-A look into the source data
-========================================================
-
-Histogram showing the frequency of destructive quakes. Each bin represents a single year.   
-
-
-<img src="the pitch-figure/unnamed-chunk-2-1.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" style="display: block; margin: auto;" />
-
+  
 What can this application do for you?
 ========================================================
 
@@ -32,11 +24,20 @@ What can this application do for you?
   - The regions where earthquakes are more common.
   - The magnitude and exact date of most destructive earthquakes (hover over the map!)
   - ...
+  
+A look into the source data
+========================================================
+
+Histogram showing the frequency of destructive quakes. Each bin represents a single year.   
+
+
+<img src="the pitch-figure/unnamed-chunk-2-1.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" style="display: block; margin: auto;" />
+  
 
 Links
 ========================================================
 
 - The data can be obtained [here](https://www.ngdc.noaa.gov/nndc/struts/form?t=101650&s=1&d=1), date of access: 07/08/2017.
 - The app can be accessed [here](https://jjlb.shinyapps.io/NOAAquakes/)
-- The github repository of the app can be found [here]
+- The github repository of the app, including data, ui.R, server.R, and this presentation, can be found [here](https://github.com/JulioLaB/quakesmap)
 
